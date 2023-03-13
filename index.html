@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leverage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        ::selection{
+            background-color: rgb(202, 202, 202);
+            opacity: .3;
+        }
+        a{
+            color: #ffffff;
+            text-decoration: none;
+            
+        }
+        header{
+            background-color: black;
+            padding: 15px 0;
+        }
+        .logo{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .logo span{
+            color: red;
+            font-size: 12px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .navbar1{
+            font-weight: bold;
+            margin-left: 3.5rem;
+        }
+        nav i{
+            color: #fff;
+            cursor: pointer;
+        }
+        .icons{
+            margin-left: 1.5rem;
+        }
+        nav a:hover{
+            color: red;
+        }
+        nav i:hover{
+            color: red;
+        }
+
+        nav .contactus{
+            margin-left: 8px;
+            padding: 8px 32px;
+            border: 2px solid red;
+            margin-left: 3rem;
+            transition: .4s;
+        }
+        nav .contactus:hover{
+            background-color: red;
+            color: #fff;
+        }
+        #first{
+            background-color: black;
+            border-bottom: 1px dotted #b9b8b8;
+        }
+        
+        .firstpage{
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-text{
+            padding-top: 4rem;
+        }
+        .left-text h2{
+            color: red;
+            font-size: 6rem;
+            font-weight: bolder;
+        }
+        .left-text p{
+            color: rgb(220, 221, 221);
+            width: 70%;
+            font-size: 20px;
+            margin-bottom: 3rem;
+        }
+        .left-text a{
+            border: 1px solid red;
+            padding: 10px 25px;
+        }
+        .left-text a:hover{
+            background-color: red;
+        }
+        .right-side img{
+            width: 100%;
+            padding-top: 2rem;
+        }
+        #second{
+            background-color: black;
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+            border-bottom: 1px dotted #b9b8b8;
+        }
+        .box{
+            text-align: center;
+            padding-top: 2rem;
+            color: #e7e7e7;
+        }
+        .box i{
+            font-size: 35px;
+            color: rgb(206, 2, 2);
+            margin-bottom: 25px;
+        }
+        .box h2{
+            margin-bottom: 25px;
+            font-size: 25px;
+        }
+        .box p{
+            color: rgb(204, 204, 202);
+            font-size: 18px;
+        }
+        #third{
+            height: 100vh;
+            background-color: black;
+            padding-top: 6rem;
+        }
+        .third-text{
+            text-align: center;
+        }
+        .third-text h2{
+            color: #fff;
+            font-size: 45px;
+            margin-bottom: 25px;
+        }
+        .third-text p{
+            font-size: 20px;
+            color: #aaa9a9;
+        }
+        .box1 img{
+            width: 100%;
+        }
+        .box1{
+            text-align: center;
+            color: #e7e7e7;
+            background-color: #1f1e1e;
+            padding: 2rem;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="">Leverage</a>
+                    <span>2.1</span>
+                </div>
+                <nav>
+                    <a class="navbar1" href="">Home</a>
+                    <a class="navbar1" href="">Services</a>
+                    <a class="navbar1" href="">Portfolio</a>
+                    <a class="navbar1" href="">Testiominals</a>
+                    <i class="fa-solid fa-magnifying-glass icons"></i>
+                    <i class="fa-brands fa-twitter icons"></i>
+                    <i class="fa-brands fa-instagram icons"></i>
+                    
+                    <a class="contactus" href="">
+                        <i class="fa-solid fa-message msg"></i>
+                        CONTACT US
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="first">
+        <div class="container">
+            <div class="firstpage">
+                <div class="left-side">
+                    <div class="left-text">
+                        <h2>WE CREATE DIGITAL ARTS.</h2>
+                        <p>Escape the fad and discover our creative services that will give authority to your brand.</p>
+                        <a href="">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            GET STARTED
+                        </a>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <img src="https://leverage-html.codings.dev/assets/images/hero-8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="second">
+        <div class="container">
+            <div class="all row">
+                <div class="box col-12 col-md-6 col-lg-4 item">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Website Pro</h2>
+                    <p>We build professional responsive websites optimized for the most popular search engines.</p>
+                </div>
+                <div class="box col-12 col-md-6 col-lg-4 item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h2>E-Commerce</h2>
+                    <p>Increase your sales with an incredible online store, full of features and functionality.</p>
+                </div>
+                <div class="box col-12 col-md-6 col-lg-4 item">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>Mobile Apps</h2>
+                    <p>Follow the global trend and create your revolutionary mobile app built with the best technologies.</p>
+                </div>
+                <div class="box col-12 col-md-6 col-lg-4 item">
+                    <i class="fa-solid fa-blog"></i>
+                    <h2>Web Application</h2>
+                    <p>We build applications for different purposes using technologies that allow you more security.</p>
+                </div>
+                <div class="box col-12 col-md-6 col-lg-4 item">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>We work to promote your brand in partnership with the best marketing platforms today.</p>
+                </div>
+                <div class="box col-12 col-md-6 col-lg-4 item">
+                    <i class="fa-regular fa-lightbulb"></i>
+                    <h2>Brand Creation</h2>
+                    <p>We create your brand thinking about your target audience using design techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="third">
+        <div class="container">
+            <div class="third-text">
+                <h2>Our Portfolio</h2>
+                <p>We have already built amazing things for our customers.</p>
+            </div>
+            <div class="row">
+                <div class="box1 col-12 col-md-6 col-lg-4 item">
+                    <h4>Visual Art</h4>
+                    <p>An impressive creation for a cosmetics company.</p>
+                    <img src="https://leverage-html.codings.dev/assets/images/work-1.jpg" alt="">
+                </div>
+                <div class="box1 col-12 col-md-6 col-lg-4 item">
+                    <h4>Abstract Design</h4>
+                    <p>We seek to obtain something innovative from art.</p>
+                    <img src="https://leverage-html.codings.dev/assets/images/work-2.jpg" alt="">
+                </div>
+                <div class="box1 col-12 col-md-6 col-lg-4 item">
+                    <h4>Creative Painting</h4>
+                    <p>We combine the use of balanced colors with painting.</p>
+                    <img src="https://leverage-html.codings.dev/assets/images/work-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
