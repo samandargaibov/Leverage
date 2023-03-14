@@ -46,23 +46,28 @@ nav i{
 .bars{
     display: none;
 }
-nav a:hover{
-    color: red;
+nav .navbar1:hover{
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 nav i:hover{
-    color: red;
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 nav .contactus{
     margin-left: 8px;
     padding: 8px 32px;
-    border: 2px solid red;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #CF0000 0%, #CF117C 100%) 1;
     margin-left: 3rem;
     transition: .4s;
-}
-nav .contactus:hover{
-    background-color: red;
     color: #fff;
+}
+.contactus:hover{
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
 }
 #first{
     background-color: black;
@@ -76,7 +81,7 @@ nav .contactus:hover{
     left: 45%;
     width: 5%;
     height: 5px;
-    background-color: red;
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
     transform: rotate(90deg);
     z-index: 1;
 }
@@ -90,7 +95,9 @@ nav .contactus:hover{
     padding-top: 4rem;
 }
 .left-text h2{
-    color: red;
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 6rem;
     font-weight: bolder;
 }
@@ -101,11 +108,12 @@ nav .contactus:hover{
     margin-bottom: 3rem;
 }
 .left-text a{
-    border: 1px solid red;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #CF0000 0%, #CF117C 100%) 1;
     padding: 10px 25px;
 }
 .left-text a:hover{
-    background-color: red;
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
 }
 .right-side img{
     width: 100%;
@@ -125,7 +133,8 @@ nav .contactus:hover{
     left: 45%;
     width: 5%;
     height: 5px;
-    background-color: red;
+    background: #CF0000;
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
     transform: rotate(90deg);
 }
 .box{
@@ -135,7 +144,10 @@ nav .contactus:hover{
 }
 .box i{
     font-size: 35px;
-    color: rgb(190, 3, 3);
+    background: #CF0000;
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 25px;
 }
 .box h2{
@@ -189,7 +201,8 @@ nav .contactus:hover{
     border: none;       
 }
 .box1:hover{
-    background-color: red;
+    background: #CF0000;
+    background: linear-gradient(to right, #CF0000 0%, #CF117C 100%);
     transform: translateY(-7.5px);
 }
 .box1 h4{
