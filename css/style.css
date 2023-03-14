@@ -40,6 +40,12 @@ nav i{
 .icons{
     margin-left: 1.5rem;
 }
+.iconmob{
+    display: none;
+}
+.bars{
+    display: none;
+}
 nav a:hover{
     color: red;
 }
@@ -188,4 +194,117 @@ nav .contactus:hover{
 }
 .box1 h4{
     margin-bottom: 25px;
+}
+@media(max-width:576px){
+    header nav a{
+        display: none;
+    }
+    .bars{
+        display: inline;
+    }
+    .firstpage{
+        background-image: url(https://leverage-html.codings.dev/assets/images/hero-8.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: .7;
+        z-index: -1;
+        height: 710px;
+    }
+    .fa-instagram{
+        display: none;
+    }
+    .fa-twitter{
+        display: none;
+    }
+    nav .msgmob{
+        border: 1px solid red;
+        padding: 7px 12px;
+        display: inline;
+        opacity: .9;
+    }
+    .iconmob{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .left-text{
+        z-index: 1;
+        text-align: center;
+    }
+    .left-text h2{
+        font-size: 60px;
+        text-align: center;
+    }
+    .left-text p{
+        text-align: center;
+        width: 100%;
+        font-size: 22px;
+
+    }
+    .left-text a{
+        text-align: center;
+        width: 100%;
+        background-color: black;
+    }
+    .right-side{
+        display: none;
+    }
+    .gp{
+        gap: 10px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 1205px){
+    header nav a{
+        display: none;
+    }
+    .bars{
+        display: inline;
+    }
+    .firstpage{
+        background-image: url(https://leverage-html.codings.dev/assets/images/hero-8.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: .9;
+        z-index: -1;
+        height: 910px;
+    }
+    .right-side{
+        display: none;
+    }
+    .fa-instagram{
+        display: none;
+    }
+    .fa-twitter{
+        display: none;
+    }
+    .left-text{
+        z-index: 1;
+    }
+    .left-text h2{
+        font-size: 60px;
+        width: 60%;
+
+    }
+    .iconmob{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .left-text p{
+        width: 60%;
+        font-size: 22px;
+    }
+    .left-text a{
+        text-align: center;
+        width: 100%;
+        background-color: black;
+    }
+    .contactus{
+        display: inline;
+        opacity: .9;
+    }
+    .box1{
+        margin-bottom: 10px;
+    }
 }
